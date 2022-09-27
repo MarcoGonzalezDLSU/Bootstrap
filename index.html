@@ -14,7 +14,7 @@
       padding: 20px;
       width: 120px;
       height: 150px;
-      color: #FFFFFF;
+      color: #7CBCFA;
       width: 40%;
       text-align: center;
       font-weight: bold;
@@ -28,10 +28,10 @@
       padding: 20px;
       width: 120px;
       height: 150px;
-      color: #FFFFFF;
+      color: #7CBCFA;
       width: 40%;
       text-align: center;
-      font-size:16px;
+      font-size:19px;
       margin-right:70px;
       border:1px;
       border-style: solid;
@@ -44,7 +44,7 @@
       padding: 20px;
       width: 140px;
       height: 50px;
-      color: #FFFFFF;
+      color: #7CBCFA;
       text-align: center;
       font-weight: bold;
       font-size:20px;
@@ -78,34 +78,132 @@
     background-attachment: fixed;
     background-size: cover;
     } 
+    
+    /* Style The Dropdown Button */
+    .dropbtn {
+      background-color: #D7D7D7;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #578EFF;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    /* Show the dropdown menu on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {
+      background-color: #3E528E;
+    }
     </style>
   </head>
   <body>
-  <table  style="background:url('https://i.gifer.com/NWcX.gif')" align="center" width=1350 
+  <table  style="background:url('https://i.gifer.com/NWcX.gif')" align="center" width=1350> 
   <tr>
-  <th>MG</th>
-  <td><div class="FavoriteShows">
-  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="FavoriteShows">
-    Favorite Shows
-  </button>
-  <div class="Favorite Shows">
-    <a class="dropdown-item" href="https://www.google.com/">American Horror Story</a>
-    <a class="dropdown-item" href="https://www.google.com/">Danny Phantom</a>
-    <a class="dropdown-item" href="https://www.google.com/">Friends</a>
-    <a class="dropdown-item" href="https://www.google.com/">Full Moon o Sagashite</a>
-    <a class="dropdown-item" href="https://www.google.com/">Game of Thrones</a>
-    <a class="dropdown-item" href="https://www.google.com/">House of the Dragon</a>
-    <a class="dropdown-item" href="https://www.google.com/">Imortal</a>
-    <a class="dropdown-item" href="https://www.google.com/">Queer As Folk</a>
-    <a class="dropdown-item" href="https://www.google.com/">Regular Show</a>
-    <a class="dropdown-item" href="https://www.google.com/">Soul Eater</a>
-    <a class="dropdown-item" href="https://www.google.com/">The Boys</a>
-  </div>
-</div></td>
-  <td>Fave Movies</td>
-  <td>Fave Songs</td>
-  <td>Social Media</td>
-  <td>About Me</td>
+  <th style="font-size:50px">🤖 MG</th>
+  <td><div class="dropdown">
+  <button class="dropbtn">Favorite Shows</button>
+  <div class="dropdown-content">
+    <a href="https://www.google.com/">American Horror Story</a>
+    <a href="https://www.google.com/">Danny Phantom</a>
+    <a href="https://www.google.com/">Friends</a>
+    <a href="https://www.google.com/">Full Moon o Sagashite</a>
+    <a href="https://www.google.com/">Game of Thrones</a>
+    <a href="https://www.google.com/">House of the Dragon</a>
+    <a href="https://www.google.com/">Imortal</a>
+    <a href="https://www.google.com/">Queer As Folk</a>
+    <a href="https://www.google.com/">Regular Show</a>
+    <a href="https://www.google.com/">Soul Eater</a>
+    <a href="https://www.google.com/">The Boys</a>
+  </div></div></td>
+  
+  <td><div class="dropdown">
+  <button class="dropbtn">Favorite Movies</button>
+  <div class="dropdown-content">
+    <a href="https://www.google.com/">2001: A Space Odyssey</a>
+    <a href="https://www.google.com/">A.I. Artificial Intelligence</a>
+    <a href="https://www.google.com/">Dreamgirls</a>
+    <a href="https://www.google.com/">Final Destination 3</a>
+    <a href="https://www.google.com/">Gravity</a>
+    <a href="https://www.google.com/">High School Musical 3</a>
+    <a href="https://www.google.com/">Music And Lyrics</a>
+    <a href="https://www.google.com/">Mysterious Skin</a>
+    <a href="https://www.google.com/">One Week</a>
+    <a href="https://www.google.com/">Scott Pilgrim vs. the World</a>
+    <a href="https://www.google.com/">What a Way to Go!</a>
+  </div></div></td>
+  
+  <td><div class="dropdown">
+  <button class="dropbtn">Favorite Songs</button>
+  <div class="dropdown-content">
+    <a href="https://www.google.com/">Don’t Leave Me - Backstreet</a>
+    <a href="https://www.google.com/">Eye In The Sky - The Alan Parsons Project</a>
+    <a href="https://www.google.com/">Faded Pictures - Case</a>
+    <a href="https://www.google.com/">Fastlove - George Michael</a>
+    <a href="https://www.google.com/">Jesus of Suburbia - Green Day</a>
+    <a href="https://www.google.com/">My All - Mariah Carey</a>
+    <a href="https://www.google.com/">One Good Reason - Dru Hill</a>
+    <a href="https://www.google.com/">Pumped Up Kicks - Foster The People</a>
+    <a href="https://www.google.com/">Scott Pilgrim vs. the World</a>
+    <a href="https://www.google.com/">Shake Me - Mint Royale</a>
+    <a href="https://www.google.com/">S.O.S - Jonas Brothers</a>
+  </div></div></td>
+  
+  <td><div class="dropdown">
+  <button class="dropbtn">Favorite Games</button>
+  <div class="dropdown-content">
+    <a href="https://www.google.com/">Call of Duty: Black Ops</a>
+    <a href="https://www.google.com/">Call of Duty: Modern Warfare</a>
+    <a href="https://www.google.com/">Call of Duty: World at War</a>
+    <a href="https://www.google.com/">Elder Scrolls: Skyrim</a>
+    <a href="https://www.google.com/">Minecraft</a>
+    <a href="https://www.google.com/">The Sims 2</a>
+    <a href="https://www.google.com/">The Sims 3</a>
+    <a href="https://www.google.com/">The Sims 4</a>
+  </div></div></td>
+  
+  <td><div class="dropdown">
+  <button class="dropbtn">Social Media</button>
+  <div class="dropdown-content">
+    <a href="https://www.google.com/">Social Media</a>
+  </div></div></td>
+  
+  <td><div class="dropdown">
+  <button class="dropbtn">About Me</button>
+  <div class="dropdown-content">
+    <a href="https://www.google.com/">About Me</a>
+  </div></div></td>
+  
+  
   </tr>
   </table>
   
